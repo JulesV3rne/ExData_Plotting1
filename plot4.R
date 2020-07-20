@@ -9,7 +9,7 @@ png(filename = "plot4.png", width=480, height=480)
 time_date <- strptime(paste(data$Date, data$Time), format = "%d/%m/%Y %H:%M:%S")
 
 #Set up a 2x2 arrangement for the four graphs with adjusted margins
-par(mfrow=c(2,2), mar = c(2,4,2,2))
+par(mfrow=c(2,2), mar = c(4,4,4,2))
 
 #Plot the data for graph 1 with type n for no plot points
 plot(time_date,data$Global_active_power,type = "n", 
