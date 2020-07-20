@@ -16,6 +16,6 @@ one household with a one-minute sampling rate over a period of almost
 are available.
 
 
-##Running the code
+## Running the code
 
 The above code relies upon the `load_data.R` script to modularly download the dataset, extract it, subset it by date, and make sure all the required libraries are installed and loaded. To produce any of the above plots, download `load_data.R` and any or all of the corresponding `plot_.R` files.
